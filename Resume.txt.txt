@@ -1,0 +1,66 @@
+RAVI KUMAR
+Full Stack Java Developer & AWS Cloud Practitioner
+
+Contact Information:
+Phone: +91-7075-94-0508
+Email: ravikumar.dev@gmail.com
+LinkedIn: linkedin.com/in/ravi-kumar-dev
+GitHub: github.com/RaviKumarDev
+Location: Hyderabad, India
+
+PROFESSIONAL SUMMARY
+Dedicated Full Stack Java Developer with expertise in AWS cloud services, frontend technologies, and backend development. Proficient in creating scalable, secure, and efficient web applications using modern technologies and best practices.
+
+SKILLS
+- Languages: Java, JavaScript, HTML, CSS
+- Frontend: React.js, Redux, Material-UI
+- Backend: Spring Boot, RESTful APIs, JPA/Hibernate
+- Cloud: AWS (EC2, Elastic Beanstalk, Lambda, EKS, CloudFront)
+- Databases: MySQL, MongoDB, Redis
+- DevOps: Docker, Kubernetes, CI/CD pipelines
+- Version Control: Git
+
+PROJECTS
+
+Interactive Learning Platform
+Frontend:
+- Developed a responsive React-based user interface with Material-UI components
+- Implemented state management using Redux and React Hooks
+- Created dynamic routing with React Router for seamless navigation
+- Optimized performance using React.lazy and Suspense for code-splitting
+
+Backend:
+- Built a scalable backend using Java Spring Boot and RESTful APIs
+- Implemented microservices architecture for user management, course content, and quiz systems
+- Utilized Spring Data JPA for efficient database operations
+- Integrated Spring Security for JWT-based authentication
+
+Cloud Deployment:
+- Containerized the application using Docker
+- Deployed microservices on Amazon EKS for efficient container orchestration
+- Implemented CI/CD pipeline using Code Pipelines (AWS) for deployment
+- Utilized AWS Elastic Beanstalk for simplified application deployment and scaling
+
+BlogApp - Scalable Blog Platform
+- Developed a full-stack blog application using Java Spring Boot and React
+- Implemented RESTful API for blog post management and user operations
+- Utilized Spring Data JPA for database operations and entity relationships
+- Containerized the application and deployed it on Amazon EKS
+- Implemented content moderation system with post approval workflow
+
+AWS EXPERTISE
+- Elastic Beanstalk: Streamlined application deployment and management
+- Lambda: Developed serverless functions for event-driven architectures
+- EKS: Orchestrated containerized applications using Kubernetes
+- CloudFront: Implemented content delivery network for improved performance
+
+
+EDUCATION
+Bachelor of Technology in Computer Science
+[Your University Name], [Graduation Year]
+
+
+ADDITIONAL SKILLS
+- Agile/Scrum methodology
+- Strong problem-solving and analytical skills
+- Excellent communication and teamwork abilities

@@ -1,0 +1,150 @@
+Certainly! Here are 50 questions and answers related to Spring Boot, focusing on the aspects mentioned in your backend description:
+
+1. Q: What is Spring Boot?
+   A: Spring Boot is a framework that simplifies the development of stand-alone, production-grade Spring-based applications.
+
+2. Q: What are the main advantages of using Spring Boot?
+   A: Auto-configuration, embedded server, easy dependency management, and production-ready features.
+
+3. Q: How does Spring Boot simplify microservices development?
+   A: It provides easy setup, embedded servers, health checks, and external configuration support.
+
+4. Q: What is the purpose of the @SpringBootApplication annotation?
+   A: It combines @Configuration, @EnableAutoConfiguration, and @ComponentScan annotations.
+
+5. Q: How do you create a RESTful API with Spring Boot?
+   A: Use @RestController annotation and define methods with @GetMapping, @PostMapping, etc.
+
+6. Q: What is Spring Data JPA?
+   A: It's a part of the Spring Data project that makes it easy to implement JPA-based repositories.
+
+7. Q: How do you define a repository in Spring Data JPA?
+   A: Create an interface that extends JpaRepository or CrudRepository.
+
+8. Q: What is the advantage of using Spring Data JPA over plain JPA?
+   A: It reduces boilerplate code and provides query methods out of the box.
+
+9. Q: How do you implement pagination with Spring Data JPA?
+   A: Use the Pageable parameter in repository methods and return Page<T> or Slice<T>.
+
+10. Q: What is Spring Security?
+    A: It's a powerful and customizable authentication and access-control framework.
+
+11. Q: How do you enable Spring Security in a Spring Boot application?
+    A: Add the spring-boot-starter-security dependency to your project.
+
+12. Q: What is JWT and how is it used in authentication?
+    A: JWT (JSON Web Token) is a compact, URL-safe means of representing claims to be transferred between two parties.
+
+13. Q: How do you implement JWT authentication in Spring Boot?
+    A: Use a JWT filter to validate tokens and integrate with Spring Security.
+
+14. Q: What is the purpose of the @Autowired annotation?
+    A: It's used for automatic dependency injection.
+
+15. Q: How do you handle exceptions globally in a Spring Boot application?
+    A: Use @ControllerAdvice and @ExceptionHandler annotations.
+
+16. Q: What is the difference between @Component, @Service, and @Repository annotations?
+    A: They're all used for component scanning, but @Service is for business logic, @Repository for data access, and @Component is a generic stereotype.
+
+17. Q: How do you configure database properties in Spring Boot?
+    A: Use application.properties or application.yml file.
+
+18. Q: What is Spring Boot Actuator?
+    A: It provides production-ready features to help monitor and manage your application.
+
+19. Q: How do you implement method-level security in Spring Boot?
+    A: Use @PreAuthorize or @Secured annotations on methods.
+
+20. Q: What is the purpose of the @Transactional annotation?
+    A: It defines the scope of a single database transaction.
+
+21. Q: How do you implement caching in Spring Boot?
+    A: Use @Cacheable, @CachePut, and @CacheEvict annotations.
+
+22. Q: What is the difference between @RequestParam and @PathVariable?
+    A: @RequestParam is for query parameters, @PathVariable is for URL path variables.
+
+23. Q: How do you handle CORS in Spring Boot?
+    A: Use @CrossOrigin annotation or configure CorsRegistry.
+
+24. Q: What is Spring Boot DevTools?
+    A: It's a set of tools that make the development experience more pleasant.
+
+25. Q: How do you implement validation in Spring Boot?
+    A: Use Bean Validation with annotations like @NotNull, @Size, etc.
+
+26. Q: What is the purpose of the @ConfigurationProperties annotation?
+    A: It's used to bind external configurations to a Java bean.
+
+27. Q: How do you implement asynchronous processing in Spring Boot?
+    A: Use @Async annotation on methods and enable async processing with @EnableAsync.
+
+28. Q: What is the difference between @Controller and @RestController?
+    A: @RestController combines @Controller and @ResponseBody.
+
+29. Q: How do you implement file uploading in Spring Boot?
+    A: Use MultipartFile in controller methods.
+
+30. Q: What is Spring Boot Starter? Name a few important ones.
+    A: Starters are dependency descriptors. Examples: spring-boot-starter-web, spring-boot-starter-data-jpa.
+
+31. Q: How do you implement scheduled tasks in Spring Boot?
+    A: Use @Scheduled annotation and enable scheduling with @EnableScheduling.
+
+32. Q: What is the purpose of profiles in Spring Boot?
+    A: Profiles allow for environment-specific configuration.
+
+33. Q: How do you implement custom authentication in Spring Security?
+    A: Implement UserDetailsService interface and configure AuthenticationManagerBuilder.
+
+34. Q: What is the difference between stateless and stateful authentication?
+    A: Stateless doesn't store session info on server, stateful does.
+
+35. Q: How do you implement WebSocket communication in Spring Boot?
+    A: Use @EnableWebSocket and implement WebSocketHandler.
+
+36. Q: What is the purpose of the @ControllerAdvice annotation?
+    A: It's used to define global exception handlers, model attributes, etc.
+
+37. Q: How do you implement retry logic in Spring Boot?
+    A: Use @Retryable annotation from Spring Retry.
+
+38. Q: What is the Circuit Breaker pattern and how is it implemented in Spring Boot?
+    A: It's a fault tolerance pattern, implemented using libraries like Resilience4j.
+
+39. Q: How do you implement database migrations in Spring Boot?
+    A: Use tools like Flyway or Liquibase.
+
+40. Q: What is the purpose of the @Lazy annotation?
+    A: It's used to defer bean creation until it's first needed.
+
+
+42. Q: What is the difference between @Value and @ConfigurationProperties?
+    A: @Value is for individual properties, @ConfigurationProperties for binding multiple properties.
+
+43. Q: How do you implement rate limiting in Spring Boot?
+    A: Use libraries like Bucket4j or implement custom filters.
+
+44. Q: What is the purpose of the @EnableJpaAuditing annotation?
+    A: It enables JPA Auditing for tracking entity changes.
+
+45. Q: How do you implement database read-write splitting in Spring Boot?
+    A: Configure multiple data sources and use @Transactional(readOnly = true) for read operations.
+
+46. Q: What is the purpose of the @ConditionalOnProperty annotation?
+    A: It conditionally enables or disables a configuration based on the presence and value of a property.
+
+47. Q: How do you implement API versioning in Spring Boot?
+    A: Use URL versioning, request parameter versioning, or custom headers.
+
+48. Q: What is the purpose of the @EnableConfigurationProperties annotation?
+    A: It enables support for @ConfigurationProperties beans.
+
+49. Q: How do you implement request logging in Spring Boot?
+    A: Use CommonsRequestLoggingFilter or create a custom interceptor.
+
+50. Q: What is the difference between @Bean and @Component?
+    A: @Bean is used in @Configuration classes for explicit bean creation, @Component is used for auto-detection and registration.
+

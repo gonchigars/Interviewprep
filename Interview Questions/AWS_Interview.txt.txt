@@ -1,0 +1,150 @@
+1. Q: What is cloud computing?
+   A: Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing.
+
+2. Q: What are the main advantages of using AWS?
+   A: Scalability, flexibility, cost-effectiveness, global reach, and a wide range of services.
+
+3. Q: How do you create an AWS account?
+   A: Sign up on the AWS website, provide necessary information, and set up billing details.
+
+4. Q: What is an AWS Region?
+   A: A geographical area consisting of multiple isolated data centers (Availability Zones).
+
+5. Q: What is an Availability Zone (AZ)?
+   A: A physically separate data center within an AWS Region.
+
+6. Q: How do you design for high availability in AWS?
+   A: Utilize multiple AZs, implement auto-scaling, and use services like Elastic Load Balancing.
+
+7. Q: What is Amazon EC2?
+   A: Elastic Compute Cloud (EC2) is a web service providing resizable compute capacity in the cloud.
+
+8. Q: How do you create an EC2 instance?
+   A: Choose an AMI, select instance type, configure instance details, add storage, add tags, configure security group, and launch.
+
+9. Q: What is an Amazon Machine Image (AMI)?
+   A: A template containing a software configuration (OS, application server, applications) used to create EC2 instances.
+
+10. Q: What is auto-scaling in AWS?
+    A: A feature that automatically adjusts the number of EC2 instances based on application demand.
+
+11. Q: How do you implement auto-scaling?
+    A: Create a launch template, create an auto-scaling group, and set scaling policies.
+
+12. Q: What is Elastic Load Balancing (ELB)?
+    A: A service that automatically distributes incoming application traffic across multiple targets.
+
+13. Q: What types of load balancers does AWS offer?
+    A: Application Load Balancer, Network Load Balancer, and Classic Load Balancer.
+
+14. Q: What is AWS Elastic Beanstalk?
+    A: A service for deploying and scaling web applications and services developed with various programming languages.
+
+15. Q: How does Elastic Beanstalk simplify application deployment?
+    A: It handles capacity provisioning, load balancing, auto-scaling, and application health monitoring automatically.
+
+16. Q: What is AWS Lambda?
+    A: A serverless compute service that runs your code in response to events and automatically manages the underlying compute resources.
+
+17. Q: How do you create a Lambda function?
+    A: Choose a runtime, write or upload your code, configure triggers, and set execution role and resource limits.
+
+18. Q: What is Amazon EKS?
+    A: Elastic Kubernetes Service (EKS) is a managed Kubernetes service for running containerized applications.
+
+19. Q: How do you deploy an application on EKS?
+    A: Create an EKS cluster, configure kubectl, create Kubernetes deployments and services.
+
+20. Q: What is AWS CloudFormation?
+    A: A service that helps you model and set up AWS resources so you can spend less time managing those resources and more time focusing on your applications.
+
+21. Q: What is Infrastructure as Code (IaC)?
+    A: The practice of managing and provisioning infrastructure through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
+
+22. Q: What is AWS CodePipeline?
+    A: A fully managed continuous delivery service that helps you automate your release pipelines.
+
+23. Q: How do you set up a CI/CD pipeline in AWS?
+    A: Use services like CodeCommit, CodeBuild, CodeDeploy, and CodePipeline to automate the build, test, and deployment processes.
+
+24. Q: What is Amazon CloudFront?
+    A: A fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally.
+
+25. Q: How does CloudFront improve performance?
+    A: It caches content at edge locations, reducing latency for users and offloading traffic from your origin.
+
+26. Q: What is AWS Cost Explorer?
+    A: A tool that enables you to view and analyze your costs and usage.
+
+27. Q: How do you optimize costs in AWS?
+    A: Use reserved instances, leverage auto-scaling, use spot instances where appropriate, and regularly review and terminate unused resources.
+
+28. Q: What is AWS Identity and Access Management (IAM)?
+    A: A web service that helps you securely control access to AWS resources.
+
+29. Q: What is the principle of least privilege in IAM?
+    A: Granting only the permissions required to perform a task.
+
+30. Q: What is an IAM role?
+    A: An IAM identity with specific permissions that can be assumed by an AWS service or user.
+
+31. Q: What is Amazon S3?
+    A: Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+
+32. Q: What is the difference between S3 storage classes?
+    A: Different storage classes offer various levels of durability, availability, and cost, optimized for different use cases.
+
+33. Q: What is Amazon RDS?
+    A: Relational Database Service (RDS) is a managed relational database service supporting multiple database engines.
+
+34. Q: How do you ensure database high availability in RDS?
+    A: Use Multi-AZ deployments and read replicas.
+
+35. Q: What is Amazon DynamoDB?
+    A: A fully managed NoSQL database service providing fast and predictable performance with seamless scalability.
+
+36. Q: What is AWS VPC?
+    A: Virtual Private Cloud (VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources.
+
+37. Q: What is a subnet in AWS?
+    A: A range of IP addresses in your VPC.
+
+38. Q: What is a security group in AWS?
+    A: A virtual firewall for controlling inbound and outbound traffic to AWS resources.
+
+39. Q: What is Amazon Route 53?
+    A: A scalable and highly available Domain Name System (DNS) web service.
+
+40. Q: How can you use Route 53 for fault tolerance?
+    A: Implement DNS failover to reroute traffic to healthy endpoints.
+
+41. Q: What is AWS CloudWatch?
+    A: A monitoring and observability service providing data and actionable insights for AWS resources.
+
+42. Q: How do you set up alarms in CloudWatch?
+    A: Define metrics, set thresholds, and configure actions to be taken when thresholds are breached.
+
+43. Q: What is AWS SNS?
+    A: Simple Notification Service (SNS) is a fully managed messaging service for both application-to-application and application-to-person communication.
+
+44. Q: What is AWS SQS?
+    A: Simple Queue Service (SQS) is a fully managed message queuing service.
+
+45. Q: How do SNS and SQS work together?
+    A: SNS can be used to fan out messages to multiple SQS queues.
+
+46. Q: What is AWS Step Functions?
+    A: A serverless function orchestrator that makes it easy to sequence AWS Lambda functions and multiple AWS services into business-critical applications.
+
+47. Q: What is Amazon API Gateway?
+    A: A fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
+
+48. Q: How do you secure an API in API Gateway?
+    A: Use API keys, IAM roles, Lambda authorizers, or Cognito User Pools.
+
+49. Q: What is AWS Elastic Cache?
+    A: A fully managed in-memory data store and cache service.
+
+50. Q: How does caching improve application performance?
+    A: By storing frequently accessed data in memory, reducing the need to access slower data stores.
+

@@ -1,0 +1,56 @@
+Title: BlogApp - A Scalable, Containerized Blog Platform
+
+Introduction (30 seconds):
+BlogApp is a robust, scalable blog platform built with Java and Spring Boot. It's designed to provide a powerful API for blog post management, user operations, and content moderation. This system is engineered to handle high traffic and is containerized for easy deployment and scaling on Amazon EKS.
+
+Key Features (1 minute):
+1. RESTful API:
+   - Developed comprehensive REST endpoints using Spring Web for post management and user operations.
+   - Implemented CRUD operations for blog posts and users.
+
+2. Content Moderation:
+   - Integrated an approval system for blog posts to ensure content quality.
+   - Implemented an endpoint for post approval, allowing for content moderation.
+
+3. Data Persistence:
+   - Utilized Spring Data JPA for efficient database operations.
+   - Implemented entity relationships, such as the Many-to-One relationship between Posts and Users.
+
+4. Service Layer Architecture:
+   - Developed separate service classes (PostService, UserService) to encapsulate business logic.
+   - Implemented dependency injection for loose coupling between components.
+
+Technical Highlights (1 minute):
+1. Spring Boot Framework:
+   - Leveraged Spring Boot for rapid application development and auto-configuration.
+   - Utilized Spring Boot's embedded server for easy deployment.
+
+2. JPA and Hibernate:
+   - Used JPA annotations for object-relational mapping.
+   - Leveraged Hibernate as the JPA provider for database operations.
+
+3. RESTful API Design:
+   - Implemented RESTful principles in API design.
+   - Used Spring's @RestController for handling HTTP requests.
+
+4. Containerization and Orchestration:
+   - Containerized the application using Docker for consistency across environments.
+   - Deployed on Amazon EKS (Elastic Kubernetes Service) for orchestration and scaling.
+
+Challenges and Solutions (1 minute):
+1. Challenge: Ensuring data integrity in a distributed system.
+   Solution: Implemented transactional methods in service layer to maintain data consistency.
+
+2. Challenge: Optimizing for scalability.
+   Solution: Utilized stateless design principles and leveraged EKS for horizontal scaling.
+
+3. Challenge: Managing complex relationships between entities.
+   Solution: Carefully designed JPA entities with appropriate fetch types and cascading operations.
+
+4. Challenge: Streamlining deployment process.
+   Solution: Created a CI/CD pipeline using Jenkins or GitLab CI, automating the build, test, and deploy process to EKS.
+
+Conclusion (30 seconds):
+Project demonstrates the power of Java and Spring Boot in creating a scalable, containerized blog platform. By leveraging Spring's ecosystem, containerization with Docker, and deployment on Amazon EKS, we've built a robust system that can handle growth and maintain performance. This project showcases proficiency in Java, Spring Boot, API design, containerization, and cloud deployment practices.
+
+This pitch provides a comprehensive overview of your Java Spring Boot blog application project, including its containerization and deployment on EKS. It highlights the key features, technical aspects, and challenges overcome, demonstrating the project's scalability and robustness.
