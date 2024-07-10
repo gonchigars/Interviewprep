@@ -1,4 +1,6 @@
-"As a Full Stack Java Developer, I bring a comprehensive skill set that spans both frontend and backend technologies, with a strong focus on cloud services, particularly AWS. My expertise includes:
+"As a Full Stack Java Developer, I bring a comprehensive skill set that spans both frontend and backend technologies, with a strong focus on cloud services, particularly AWS.
+
+My expertise includes:
 
 Frontend development using React.js, Redux, and Material-UI, allowing me to create responsive and user-friendly interfaces.
 Backend development with Java, Spring Boot, and RESTful APIs, enabling me to build robust and scalable server-side applications.
