@@ -21,7 +21,59 @@
    - Props (short for properties) are inputs passed into React components that allow data to be passed from one component to another.
 
 6. **How do you pass data between components in React?**
-   - Data is passed between components via props. Parent components pass props to child components.
+  In React, data is passed from a parent component to a child component using **props** (short for properties). Props are a way to send data from one component to another, usually from a higher-level (parent) component to a lower-level (child) component. The child component receives these props as arguments and can use them to display or work with data.
+
+### Example: Passing data from a parent to a child
+
+1. **Parent Component:**
+
+```jsx
+import React from 'react';
+import ChildComponent from './ChildComponent';
+
+function ParentComponent() {
+  const message = "Hello from Parent!"; // Data to pass as props
+  return (
+    <div>
+      <h1>Parent Component</h1>
+      {/* Passing the message as a prop to ChildComponent */}
+      <ChildComponent greeting={message} />
+    </div>
+  );
+}
+
+export default ParentComponent;
+```
+
+2. **Child Component:**
+
+```jsx
+import React from 'react';
+
+function ChildComponent(props) {
+  return (
+    <div>
+      <h2>Child Component</h2>
+      {/* Accessing the passed prop using props.greeting */}
+      <p>{props.greeting}</p>
+    </div>
+  );
+}
+
+export default ChildComponent;
+```
+
+### Explanation:
+- In the `ParentComponent`, we define a string `message = "Hello from Parent!"` and pass it as a prop (`greeting`) to the `ChildComponent` using JSX syntax: `<ChildComponent greeting={message} />`.
+- The `ChildComponent` receives the `greeting` prop through the `props` object. Inside the child component, we access this data using `props.greeting` and display it inside a `<p>` tag.
+
+**Output:**
+```
+Parent Component
+Hello from Parent!
+```
+
+In this example, data is passed from the `ParentComponent` to the `ChildComponent` via the `greeting` prop.
 
 7. **What is the virtual DOM and how does it work?**
    - The virtual DOM is a lightweight copy of the real DOM that React uses to make updates more efficient. React compares the virtual DOM to the real DOM and only updates the parts of the DOM that have changed.
