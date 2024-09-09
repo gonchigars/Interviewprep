@@ -3,8 +3,6 @@
 1. **What is React and why is it used?**
    - React is a JavaScript library for building user interfaces, especially for single-page applications. It allows developers to create reusable UI components that manage their own state, improving code reusability and performance.
 
-2. **Explain the difference between functional and class components in React.**
-   - Functional components are stateless, simpler, and primarily used for presentational purposes. Class components can manage state and lifecycle methods but have been largely replaced by functional components with Hooks, which add state and lifecycle functionality.
 
 3. **What is JSX?**
    - JSX is a syntax extension for JavaScript that looks similar to HTML. It is used with React to describe UI components. JSX allows you to write HTML-like code in JavaScript that gets transpiled to React.createElement calls.
@@ -87,14 +85,6 @@ In this example, data is passed from the `ParentComponent` to the `ChildComponen
       <button onClick={handleClick}>Click Me</button>
       ```
 
-13. **What is the purpose of fragments in React?**
-    - Fragments allow grouping multiple elements without adding extra nodes to the DOM. They help prevent unnecessary nesting and improve performance.
-      ```js
-      <>
-        <p>Element 1</p>
-        <p>Element 2</p>
-      </>
-      ```
 
 
 ---
