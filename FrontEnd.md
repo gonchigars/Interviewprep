@@ -96,11 +96,6 @@ In this example, data is passed from the `ParentComponent` to the `ChildComponen
       </>
       ```
 
-14. **Explain the concept of lifting state up in React.**
-    - Lifting state up is when a common parent component holds shared state and passes it down as props to child components, ensuring that they stay synchronized.
-
-15. **What are Higher-Order Components (HOCs) in React?**
-    - HOCs are functions that take a component and return a new component, adding additional functionality or behavior. They are used for reusing component logic across different parts of the app.
 
 ---
 
